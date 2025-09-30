@@ -2,7 +2,7 @@ https://learn.microsoft.com/en-us/azure/application-gateway/quick-create-powersh
 
 We'll deploy the following architecture with Powershell:
 
-![schema](../.imgs/network_lab2.png "schema")
+![schema](.misc/network_lab2.png "schema")
 
 ---
 

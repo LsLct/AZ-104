@@ -2,7 +2,7 @@ https://learn.microsoft.com/en-us/azure/virtual-network/quickstart-create-virtua
 
 We'll deploy the following architecture with Powershell:
 
-![schema](../.imgs/network_lab1.png "schema")
+![schema](.misc/network_lab1.png "schema")
 
 ➡ Two virtual machines and an Azure Bastion host are deployed to test connectivity between the virtual machines in the same virtual network.  
 The Azure Bastion host facilitates secure and seamless SSH connectivity to the virtual machines directly in the Azure portal over SSL.  

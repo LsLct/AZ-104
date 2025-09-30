@@ -258,3 +258,16 @@ ProvisioningState : Succeeded
 VNetName          : vnet-2
 ResourceGroupName : network_lab2
 ```
+---
+### Testing purposes : remove pasphrase from a private key
+
+You can easily remove passphrase of a key by using the following command :
+```
+ssh-keygen -p
+```
+
+- On the first prompt, enter the file path (or press Enter to use the default)
+- Second prompt, enter the old passphrase
+- Next prompt, just press enter to unset the passphrase
+
+---

@@ -8,7 +8,7 @@ do
     j=$((i + 4))
     ip="192.168.40.$j"
 
-    ssh -i ~/.ssh/id_rsa louis@$ip bash -c "'
+    ssh -i /home/louis/.ssh/id_rsa louis@$ip bash -c "'
         set -e
         export DEBIAN_FRONTEND=noninteractive
         export VAR=$i

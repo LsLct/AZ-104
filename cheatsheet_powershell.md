@@ -184,6 +184,8 @@ New-AzSshKey @ssh
 ---
 ### Get Subnets for a specified Virtual Network
 
+Function that returns an array of object, corresponding to the subnets in the virtual network passed as parameter.
+
 ```powershell
 function Get-AzVirtualSubnets
 {
@@ -258,6 +260,13 @@ ProvisioningState : Succeeded
 VNetName          : vnet-2
 ResourceGroupName : network_lab2
 ```
+
+
+More straightforward method to get subnets in a given vnet :
+```powershell
+Get-AzVirtualNetwork -ResourceGroupName "network_lab3" -Name "subnet-1" | Select-Object -ExpandPropery subnets
+```
+
 ---
 ### Testing purposes : remove pasphrase from a private key
 

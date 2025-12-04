@@ -76,7 +76,7 @@
 
 ---
 
-### Microsoft Learn Youtube videos
+### 🎞 Microsoft Learn Youtube videos
  - [Administer Azure Storage, part 1](https://www.youtube.com/watch?v=EH_2cTrg5PM)
  - [Administer Azure Storage, part 2](https://www.youtube.com/watch?v=WJ_0kPmyI1s)
  - [Administer Azure Storage, part 3](https://www.youtube.com/watch?v=2U_99n3_8bk)

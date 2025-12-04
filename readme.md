@@ -62,7 +62,6 @@
   - Configure snapshots and soft delete for Azure Files
   - Configure blob lifecycle management
   - Configure blob versioning
-
 </details>
 
 <details>
@@ -99,7 +98,6 @@
   - Configure backup for an App Service
   - Configure networking settings for an App Service
   - Configure deployment slots for an App Service
-
 </details>
 
 <details>
@@ -144,16 +142,16 @@
   - Configure Azure Site Recovery for Azure resources
   - Perform a failover to a secondary region by using Site Recovery
   - Configure and interpret reports and alerts for backups
-
 </details>
 
 
 ## 📚 Resources used
 
-- KodeKloud AZ-104 course by Rithing Skaria: https://learn.kodekloud.com/user/courses/az-104-microsoft-azure-administrator  
-- Microsoft Learn - Course AZ-104: https://learn.microsoft.com/en-us/training/courses/az-104t00
-- Networking part : 
-  - https://learn.microsoft.com/en-us/azure/networking/fundamentals/ 
-  - https://learn.microsoft.com/en-us/azure/virtual-network/
+- [Identity and governance](./01%20-%20Identity/readme.md)
+- [Storage](./02%20-%20Storage/readme.md)
+- [Compute](./03%20-%20Compute/readme.md)
+- [Network](./04%20-%20Network/readme.md)
+- [Monitoring](./05%20-%20Monitoring/readme.md)
+
 
 
